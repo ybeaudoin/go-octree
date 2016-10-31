@@ -70,7 +70,7 @@ criterion is that the number of points in a leaf node be less than or equal to a
   of the two central points<sup>[\[3\]](https://en.wikipedia.org/wiki/Median)</sup>.
 * The **Geometric Median** method splits at "the point minimizing the sum of \[Euclidean\] distances to the sample points"
   <sup>[\[4\]](https://en.wikipedia.org/wiki/Geometric_median)</sup>. This point is commonly estimated using *Weiszfeld's
-  algorithm*<sup>[\[4\]](https://en.wikipedia.org/wiki/Geometric_median)</sup>:
+  algorithm*<sup>[\[4\]](https://en.wikipedia.org/wiki/Geometric_median)</sup>:  
   ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/b3fb215363358f12687100710caff0e86cd9d26b)  
   Although the iterative method "converges for almost all initial positions"
   <sup>[\[4\]](https://en.wikipedia.org/wiki/Geometric_median)</sup>, it is slow being computationally expensive. One
